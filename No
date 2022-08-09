@@ -1,0 +1,11 @@
+package ListaLigada;
+
+	class No {
+		float elemento;
+		No prox;
+		
+		No (float elem){
+			elemento = elem;
+			prox = null;
+		}
+}
