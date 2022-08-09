@@ -1,0 +1,23 @@
+package ListaLigada;
+
+import javax.swing.JOptionPane;
+
+public class AlgoritmoExp {
+	
+		public static void main (String args[]) {
+			ListaLigada realLista = new ListaLigada();
+			int i;
+			float num;
+			
+			for (i=1; i <= 10; i++) {
+				num = Float.parseFloat(JOptionPane.showInputDialog("Digite um numero"));
+				
+				if (num%3 == 0) {
+				realLista.InserirFinal(new No(num));
+			}
+		}	
+			realLista.MostrarLista();
+}}
+
+
+
