@@ -1,4 +1,4 @@
-# ListaLigada e Nó
+# Lista Ligada e Nó
 ListaVazia()
 Destruir ()
 ContarNos()  
